@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="MultiEnv1" Version="1.0.0" Aliases="env1" >
+	  </PackageReference>
+
+	  <PackageReference Include="MultiEnv2" Version="2.0.0" Aliases="env2" >
+	  </PackageReference>
+
+  </ItemGroup>
+
+</Project>
